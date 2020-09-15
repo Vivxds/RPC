@@ -1,0 +1,117 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #272635;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.form{
+  border-radius: 20px;
+  width: 280px;
+  z-index: 1;
+  background-color: #f0bcd4;
+  padding: 20px;
+  position: absolute;
+}
+.nom{
+  height:40px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  opacity:50%;
+  outline: none;
+}
+.couleur{
+  display:flex;
+  justify-content: space-between;
+}
+.choix{
+  width: 100%;
+  border-radius: 20px;
+  outline: none;
+  height:40px;
+  border:none;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-appearance: none;
+}
+.jouer{
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.game{
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width:100%;
+}
+.player{
+  display: flex;
+  background-color: #7fd8be;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  float: left;
+}
+.playerName{
+  position: absolute;
+  top:0;
+}
+.playerHand{
+  font-size: 200px;
+}
+.cpu{
+  display: flex;
+  background-color: #d16d82;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  float: right;
+}
+.cpuName{
+  position: absolute;
+  top: 0px;
+}
+.cpuHand{
+  font-size: 200px;
+}
+.resultat{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.rejouer{
+  position: absolute;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: white;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  outline: none;
+}
